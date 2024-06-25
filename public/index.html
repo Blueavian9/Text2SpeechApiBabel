@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="data.js" module></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Text2Speech APP</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="brand">
+                <p>Text2<span>Speech</span></p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Other</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="heroContent">
+                <h1>Text 2 Speech</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio enim nihil laboriosam sequi in inventore possimus blanditiis aperiam voluptatibus! Dolorem eum hic autem sapiente, id nobis sit veritatis eius?
+                    Porro suscipit, perspiciatis dolorum maiores sunt, fuga quia illo illum ipsa quam vel alias deleniti laboriosam est exercitationem quos repellat commodi praesentium quod? Aspernatur minus nesciunt, autem at laudantium quaerat.
+                    Deleniti mollitia esse ullam doloribus! Nihil, quod. Et dolorum adipisci vero doloremque debitis at odio maxime cumque tempora hic labore illum, laboriosam temporibus, veniam quod excepturi, molestias odit harum veritatis.
+                    Modi vel eligendi maiores provident a delectus exercitationem hic saepe fugiat, alias quis recusandae doloribus soluta placeat at, laborum esse reprehenderit quas ipsam sequi aspernatur ipsa. Quasi, eum suscipit? Saepe?
+                </p>
+                <div class="button">Join Us</div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container">
+            
+            <div class="form">
+
+                <form id="textForm">
+                    <label for="textInput">Text to Speak:</label>
+                    <textarea id="textInput" rows="5" required></textarea>
+                    <label for="nameDropdown">Choose a Person to Speak</label>
+                    <select id="nameDropdown" name="nameDropdown"></select>
+    
+                    <label for="languageDropdown">Language</label>
+                    <select id="languageDropdown" name="languageDropdown"></select>
+                    <button type="submit" id="submitButton">Synthesize Speech</button>
+                  </form>
+                  <div class="audio-container">
+                  </div>
+               
+            </div>
+        </div>
+    </main>
+</body>
+</html>
