@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +11,12 @@
     <link rel="stylesheet" href="styles.css">
     <title>Text2Speech APP</title>
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="brand">
-                <p>Text2<span>Speech</span></p>
+                <p>Text2<span>Speech Logo</span></p>
             </div>
             <nav>
                 <ul>
@@ -29,37 +31,48 @@
     <section class="hero">
         <div class="container">
             <div class="heroContent">
-                <h1>Text 2 Speech</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio enim nihil laboriosam sequi in inventore possimus blanditiis aperiam voluptatibus! Dolorem eum hic autem sapiente, id nobis sit veritatis eius?
-                    Porro suscipit, perspiciatis dolorum maiores sunt, fuga quia illo illum ipsa quam vel alias deleniti laboriosam est exercitationem quos repellat commodi praesentium quod? Aspernatur minus nesciunt, autem at laudantium quaerat.
-                    Deleniti mollitia esse ullam doloribus! Nihil, quod. Et dolorum adipisci vero doloremque debitis at odio maxime cumque tempora hic labore illum, laboriosam temporibus, veniam quod excepturi, molestias odit harum veritatis.
-                    Modi vel eligendi maiores provident a delectus exercitationem hic saepe fugiat, alias quis recusandae doloribus soluta placeat at, laborum esse reprehenderit quas ipsam sequi aspernatur ipsa. Quasi, eum suscipit? Saepe?
+                <img src="https://img1.wsimg.com/isteam/ip/9e820def-c025-4f39-9a48-56032d8c7a1a/Screen%20Shot%202022-07-15%20at%2011.41.56%20PM.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true"
+                    width="246px" height="68px" alt="talkAnimate-Img">
+                <h2>talkAnimate is voice-driven kid-powered learning</h2>
+                <p>What if you could create a virtual online lesson that kids could talk to and guide? We are in
+                    development; let us know below if you want to be in the beta program. We are taking applications.
                 </p>
-                <div class="button">Join Us</div>
+                <h2>Welcome</h2>
+                <p>talkAnimate is a no-code web platform that allows you to build voice-directed interactive
+                    experiences. </p>
+                <h2>What is talkAnimate?</h2>
+                <hr>
+                <br>
+                <p> Students learn with animated characters <b>they</b> command: </p>
+                <h2>Educator-Created for customization: </h2>
+                <h2>Kid-Controlled for empowerment: </h2>
+                <p>You create lessons for specific kids or your entire classrooms on the fly.</p>
+                <h2>Stealth-learning for nano attention.</h2>
+                <p> Kids use communication to problem-solve in a unique and pressure-free experience.</p>
+                <br><br>
+                <div class="joinButton" type="submit">Join Us</div>
             </div>
         </div>
     </section>
     <main>
         <div class="container">
-            
-            <div class="form">
 
+            <div class="form">
                 <form id="textForm">
                     <label for="textInput">Text to Speak:</label>
                     <textarea id="textInput" rows="5" required></textarea>
                     <label for="nameDropdown">Choose a Person to Speak</label>
                     <select id="nameDropdown" name="nameDropdown"></select>
-    
+
                     <label for="languageDropdown">Language</label>
                     <select id="languageDropdown" name="languageDropdown"></select>
-                    <button type="submit" id="submitButton">Synthesize Speech</button>
-                  </form>
-                  <div class="audio-container">
-                  </div>
-               
+                    <button class="submitButton" type="submit" id="submitButton">Synthesize Speech</button>
+                </form>
+                <div class="audio-container">
+                </div>
             </div>
         </div>
     </main>
 </body>
+
 </html>
