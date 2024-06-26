@@ -14,8 +14,8 @@ app.use(express.static(path.join(__dirname, "public")));
 
 const client = new Polly({
   region: process.env.AWS_REGION,
-  accessKeyId: process.env.AWS_KEY,
-  secretAccessKey: process.env.AWS_SECRET_KEY
+  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
 });
 
 /**
